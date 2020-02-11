@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        工厂实例化的方式:
+        1. 调用无参构造方法-默认
+        2. 静态工厂实例化(factory-method属性)
+        3. 实例工厂实例化(factory-bean属性)
+     -->
+    <bean id="user" class="com.mycomp.demo3.User" factory-method="createUser">
+    </bean>
+    <bean id="user2" class="com.mycomp.demo3.User" factory-bean="user">
+    </bean>
+</beans>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        默认, 创建的对象是单例的(每次获取, 地址都是同一个).
+        bean里的一些属性:
+        id: 自己起的, 用来表示这个bean, 也可以使用name属性;
+        id与name的区别:
+        id: 使用了约束中的唯一约束。里面不能出现特殊字符的;
+        name: 没有使用约束中的唯一约束。里面可以出现特殊字符;
+    -->
+    <bean id="userDao" class="com.mycomp.demo1.UserDaoMysqlImpl">
+        <!--
+            依赖注入(DI):
+            name: 注入的属性的名称, 要注入的属性必须提供setter方法;
+            value: 注入的值;
+        -->
+        <property name="name" value="MySqlDaoDI"/>
+    </bean>
+    <!-- <bean id="userDao" class="com.mycomp.IOCdemo1.UserDaoOracleImpl"/> -->
+
+    <!--
+        创建的对象的生命周期:
+        当加载配置文件的时候就已经把对象创建好了(属性也注入好了), 创建时会执行init-method;
+        当工厂关闭时, 对象销毁(使用单例的情况), 销毁时会执行destroy-method;
+        scope="singleton": 创建的对象是单例的(默认的);
+        scope="prototype": 创建的对象不是单例的(多例的), 如果指定了多例, 则在工厂关闭的时候, 对象不会自动销毁;
+
+        bean里的一些其他属性:
+        request: 应用在web项目中，Spring创建这个类以后，将这个对象存入到request范围中;
+        session: 应用在web项目中，Spring创建这个类以后，将这个对象存入到session范围中;
+        globalsession: 应用在web项目中，必须在porlet(基于Java的Web组件，子域名)环境下使用。但是如果没有这种环境，相对于session;
+    -->
+    <bean id="person" class="com.mycomp.demo2.Person"
+          init-method="init" destroy-method="destroy"
+          scope="prototype">
+        <property name="name" value="zzq"/>
+    </bean>
+
+    <!-- 分模块配置, 导入其他的配置文件 -->
+    <import resource="applicationContext_user.xml"/>
+    <import resource="applicationContext_student.xml"/>
+</beans>
