@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XfApmChfcuvizNosNTk95fK6Lf" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
@@ -388,6 +391,10 @@
       <workItem from="1581426960857" duration="6270000" />
       <workItem from="1581434371016" duration="4057000" />
       <workItem from="1581438848968" duration="4000" />
+      <workItem from="1581473209501" duration="51000" />
+      <workItem from="1581473266629" duration="3000" />
+      <workItem from="1581473339875" duration="51000" />
+      <workItem from="1581477024671" duration="6000" />
     </task>
     <servers />
   </component>
