@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28ba28f2-7e84-4122-9642-3d18d248bc9b" name="Default Changelist" comment="" />
+    <list default="true" id="28ba28f2-7e84-4122-9642-3d18d248bc9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/课件/撩课-SSH整合.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring-Aop.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring-jdbc模板.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/撩课-Spring.xmind" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resource" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -47,6 +53,7 @@
       <recent name="com.mycomp.demo1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Spring_stage1" />
       <recent name="H:\IDEA_workspace\Learn_Spring_stage1\resource" />
       <recent name="H:\IDEA_workspace\Learn_Spring_stage1\web\WEB-INF\lib" />
     </key>
@@ -395,6 +402,10 @@
       <workItem from="1581473266629" duration="3000" />
       <workItem from="1581473339875" duration="51000" />
       <workItem from="1581477024671" duration="6000" />
+      <workItem from="1581484149552" duration="19000" />
+      <workItem from="1581484185628" duration="5000" />
+      <workItem from="1581484194711" duration="1000" />
+      <workItem from="1581484242777" duration="2000" />
     </task>
     <servers />
   </component>
