@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28ba28f2-7e84-4122-9642-3d18d248bc9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="28ba28f2-7e84-4122-9642-3d18d248bc9b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -405,6 +403,7 @@
       <workItem from="1581509431843" duration="16000" />
       <workItem from="1581509478048" duration="64000" />
       <workItem from="1581509613449" duration="74000" />
+      <workItem from="1581780765764" duration="37000" />
     </task>
     <servers />
   </component>
